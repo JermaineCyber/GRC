@@ -102,7 +102,28 @@
             font-size: 1em;
             color: #333;
         }
+        .social-links {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .social-links li {
+            display: inline;
+        }
+        .social-links a {
+            color: #333;
+            font-size: 1.5em;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #006064;
+        }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <h1>GOVERNANCE RISK & COMPLIANCE</h1>
@@ -136,5 +157,10 @@
     <div class="footer">
         Created by: Jermaine Forbes
     </div>
+    <ul class="social-links">
+        <li><a href="https://www.linkedin.com/in/jermaine-forbes-86749b2a7/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="https://www.youtube.com/channel/UCsRWpf2Zvn16ndi0F6oM34A" class="icon brands fa-youtube"><span class="label">YouTube</span></a></li>
+        <li><a href="mailto:Sebrof91@gmail.com" class="icon solid fa-envelope"><span class="label">Gmail</span></a></li>
+    </ul>
 </body>
 </html>
