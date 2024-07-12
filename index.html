@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #f5f5f5;
+            background-color: #e0f7fa;
             margin: 0;
             padding: 20px;
             color: #333;
@@ -16,7 +16,7 @@
         h1 {
             font-size: 3em;
             margin-bottom: 20px;
-            color: #4CAF50;
+            color: #006064;
             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         }
         p {
@@ -33,7 +33,6 @@
             margin-top: 40px;
         }
         .link-card {
-            background: linear-gradient(135deg, #4CAF50 30%, #81C784);
             color: white;
             border-radius: 10px;
             padding: 20px;
@@ -59,9 +58,44 @@
             display: block;
             width: 60px;
             height: 5px;
-            background: white;
             margin: 10px auto 20px;
             border-radius: 5px;
+        }
+        .hipaa {
+            background: linear-gradient(135deg, #FF5722 30%, #FF7043);
+        }
+        .hipaa::before {
+            background: #FFCCBC;
+        }
+        .sox {
+            background: linear-gradient(135deg, #673AB7 30%, #9575CD);
+        }
+        .sox::before {
+            background: #D1C4E9;
+        }
+        .gdpr {
+            background: linear-gradient(135deg, #009688 30%, #4DB6AC);
+        }
+        .gdpr::before {
+            background: #B2DFDB;
+        }
+        .cobit {
+            background: linear-gradient(135deg, #3F51B5 30%, #7986CB);
+        }
+        .cobit::before {
+            background: #C5CAE9;
+        }
+        .iso {
+            background: linear-gradient(135deg, #FFC107 30%, #FFD54F);
+        }
+        .iso::before {
+            background: #FFECB3;
+        }
+        .nist {
+            background: linear-gradient(135deg, #8BC34A 30%, #AED581);
+        }
+        .nist::before {
+            background: #DCEDC8;
         }
     </style>
 </head>
@@ -69,27 +103,27 @@
     <h1>GOVERNANCE RISK & COMPLIANCE</h1>
     <p>Explore our comprehensive guides on various governance, risk, and compliance frameworks. Click on each card to learn more about the specific frameworks and how they can help your organization maintain security and compliance.</p>
     <div class="container">
-        <a href="https://jermainecyber.github.io/HIPAA/" class="link-card">
+        <a href="https://jermainecyber.github.io/HIPAA/" class="link-card hipaa">
             <h2>HIPAA</h2>
             <p>Health Insurance Portability and Accountability Act</p>
         </a>
-        <a href="https://jermainecyber.github.io/SOX/" class="link-card">
+        <a href="https://jermainecyber.github.io/SOX/" class="link-card sox">
             <h2>SOX</h2>
             <p>Sarbanes-Oxley Act</p>
         </a>
-        <a href="https://jermainecyber.github.io/GDPR/" class="link-card">
+        <a href="https://jermainecyber.github.io/GDPR/" class="link-card gdpr">
             <h2>GDPR</h2>
             <p>General Data Protection Regulation</p>
         </a>
-        <a href="https://jermainecyber.github.io/COBIT/" class="link-card">
+        <a href="https://jermainecyber.github.io/COBIT/" class="link-card cobit">
             <h2>COBIT</h2>
             <p>Control Objectives for Information and Related Technologies</p>
         </a>
-        <a href="https://jermainecyber.github.io/ISO27001/" class="link-card">
+        <a href="https://jermainecyber.github.io/ISO27001/" class="link-card iso">
             <h2>ISO/IEC 27001</h2>
             <p>Information Security Management</p>
         </a>
-        <a href="https://jermainecyber.github.io/NistCSF/" class="link-card">
+        <a href="https://jermainecyber.github.io/NistCSF/" class="link-card nist">
             <h2>NIST CSF</h2>
             <p>Cybersecurity Framework</p>
         </a>
